@@ -1,15 +1,16 @@
 {
-  "name": "allright-automation",
+  "name": "charlie-quiz-automation",
   "version": "1.0.0",
-  "description": "Dynamic Registration Quiz E2E Automation Framework",
-  "main": "index.js",
+  "description": "Стійка автоматизація квіза реєстрації Charlie, яка переживає A/B-тести",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "report": "playwright show-report"
+    "test:debug": "playwright test --debug"
   },
   "devDependencies": {
-    "@playwright/test": "^1.45.0",
-    "typescript": "^5.0.0"
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^17.4.2",
+    "typescript": "^5.5.0"
   }
 }
